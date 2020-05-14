@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="AssignBQAccessToken" version="SHA-512:b6da27824f775cf9faa5891b0589b2d5e5ffc76aa02e42b1cedae4e05849b80c15266dfe9d669c37453dddbc92f700503ce337fc255aa4663ff611e7d14b4cf8"/>
+        <VersionInfo resourceName="ExtractBQAccessToken" version="SHA-512:75448d5307f32ae13616b1d47c72b4b8e41d448e1a49fe8d8acffbaee59cb1f386c9eb18af1e81ce40a93aff9caf7b034fca9a62c0eca21a78fe067e2b9387b7"/>
+        <VersionInfo resourceName="FetchGCPAccessToken" version="SHA-512:ea244f7ecf015e4178f924ecb9df519c194980445d200fd04daef4b1cd86ec35a7bfbd0f29c9928b62dd7d97c099eae0491f8be4f0b2aabce1533b82e38ce217"/>
+        <VersionInfo resourceName="LookupTokenCache" version="SHA-512:b74dbc09ea294a06aef380c9e0658d0bdc126ca9ec89d7da48ddda7104bb4b99843399d7e6a437360979256ca0e98a8370070a93c93b11dbb2a709f8dfb22dc9"/>
+        <VersionInfo resourceName="PopulateTokenCache" version="SHA-512:ece520f29224607c06404fe81f5adfe6e49e89676c97839e31a620ffb4792d3e333ff2a1fa28afec1e18e4a8829d1e4676862032615e32b52dc34bbed9123b63"/>
+        <VersionInfo resourceName="SpikeArrest" version="SHA-512:36e958ad99d9fa93b1073c6c5656c30084e5bc0fafdc9a2da7d8e21af7d5579e1a8fde3c8a7143bf007772575cf68d39f04d2073a9987ee519f9b65b69a0ffff"/>
+        <VersionInfo resourceName="VerifyAPIKey" version="SHA-512:ea5c8f110ac8db5f011f0e82a6eb8e07f5297a6f64d098ad02c39992b352615e0de28eed7f9afb96447da23521a2987399f3a53b87c6c0ff58af02b017d361ca"/>
+    </Policies>
+    <ProxyEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:821ba4f2d02992269a2f4b8cff43dc4ed74bf60b818b0ccaeb9b5222743aa2ddaee047132ca7b439387a63a1f25cf18a51b203134b453ffa2a69af6d757945ec"/>
+    </ProxyEndpoints>
+    <Resources/>
+    <SharedFlows/>
+    <TargetEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:bbef2876013e9bbf1a325833b9d0b0fc93e217d1f1a086b5e618e02a18dd1105bea7cd273937490b772a1cc0a5f0c9590ed98db1bb98712b74ecea3db8e0068f"/>
+    </TargetEndpoints>
+</Manifest>

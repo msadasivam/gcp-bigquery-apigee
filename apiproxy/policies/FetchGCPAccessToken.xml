@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ConnectorCallout async="false" continueOnError="true" enabled="true" name="FetchGCPAccessToken">
+    <DisplayName>FetchGCPAccessToken</DisplayName>
+    <Connector>GAuth</Connector>
+    <Action>getOauth2AccessToken</Action>
+    <Input><![CDATA[{
+  "scope" : [
+    "https://www.googleapis.com/auth/bigquery"
+  ]
+}]]></Input>
+    <Output parsed="false">gcp.token.response</Output>
+</ConnectorCallout>

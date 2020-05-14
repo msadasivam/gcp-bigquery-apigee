@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<LookupCache async="false" continueOnError="false" enabled="true" name="LookupTokenCache">
+    <DisplayName>LookupTokenCache</DisplayName>
+    <Properties/>
+    <CacheKey>
+        <Prefix/>
+        <KeyFragment>bq.project_id.gcp.accesstoken</KeyFragment>
+    </CacheKey>
+    <CacheResource>BQGCPAuthToken</CacheResource>
+    <Scope>Exclusive</Scope>
+    <AssignTo>gcp.accesstoken</AssignTo>
+</LookupCache>

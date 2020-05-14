@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="3" name="BQTest">
+    <Basepaths>/bqtest</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1589335373553</CreatedAt>
+    <CreatedBy>user@example.com</CreatedBy>
+    <Description></Description>
+    <DisplayName>BQTest</DisplayName>
+    <LastModifiedAt>1589366314141</LastModifiedAt>
+    <LastModifiedBy>user@example.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:98994bed106a967c6bbd2ce6c29b4461740772465031bd978b935da23fc9f0a0d71184aaf2ee04f9a4d6b3cba58e79c1a6939eb9417ba5267cca807dd4e7d002</ManifestVersion>
+    <Policies>
+        <Policy>AssignBQAccessToken</Policy>
+        <Policy>ExtractBQAccessToken</Policy>
+        <Policy>FetchGCPAccessToken</Policy>
+        <Policy>LookupTokenCache</Policy>
+        <Policy>PopulateTokenCache</Policy>
+        <Policy>SpikeArrest</Policy>
+        <Policy>VerifyAPIKey</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources/>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>
